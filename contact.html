@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>RWS - Tour Agent</title>
+		<!-- favicon -->
+		<link rel="shortcut icon" href="icons/favicon.png" type="image/x-icon" />
+		<!-- css -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- google font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+		<!-- box icons -->
+		<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+		<!-- aos library -->
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+
+	<body>
+		<!-- ! main -->
+		<main class="main">
+			<!-- ! header -->
+			<header class="header" data-aos="fade-down" data-aos-duration="2000" id="navbar">
+				<img src="icons/logo.png" alt="logo" class="header__logo" id="backToHome" />
+
+				<nav class="header__nav">
+					<ul class="header__list">
+						<li><a href="index.html" class="header__list-item">Home</a></li>
+						<li>
+							<a href="about.html" class="header__list-item">About Us</a>
+						</li>
+						<li>
+							<a href="destination.html" class="header__list-item">Destinations</a>
+						</li>
+						<li><a href="blog.html" class="header__list-item">Blog</a></li>
+						<li>
+							<a href="contact.html" class="header__list-item">Contact</a>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- hidden -->
+				<button class="hidden__button">
+					<span class="hidden__hamburger hidden__hamburger--first" id="hamburger"></span>
+					<span class="hidden__hamburger hidden__hamburger--second" id="hamburger"></span>
+					<span class="hidden__hamburger hidden__hamburger--third" id="hamburger"></span>
+				</button>
+				<div class="hidden__box">
+					<a href="index.html" class="hidden__link">Home</a>
+					<a href="about.html" class="hidden__link">About Us</a>
+					<a href="destination.html" class="hidden__link">Destinations</a>
+					<a href="blog.html" class="hidden__link">Blog</a>
+					<a href="contact.html" class="hidden__link">Contact</a>
+				</div>
+			</header>
+			<!-- ! header -->
+
+			<!-- ? hero fifth section -->
+			<section class="hero__fifth">
+				<div class="hero__fifth__box">
+					<video autoplay muted loop id="myVideo" class="hero__video">
+						<source src="videos/background1.mp4" type="video/mp4" />
+						Your browser does not support HTML5 video.
+					</video>
+					<h3 class="hero__fifth__title" data-aos="fade-up" data-aos-duration="2000">Contact</h3>
+					<a href="index.html" class="hero__fifth__text" data-aos="fade-up" data-aos-duration="2000">Home > Contact</a>
+				</div>
+			</section>
+			<!-- ? hero fifth section -->
+
+			<!-- ? contact section -->
+			<section class="contact">
+				<h2 class="contact__title" data-aos="fade-up" data-aos-duration="2000">Contact Us</h2>
+				<p class="contact__text" data-aos="fade-up" data-aos-duration="2000">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur!</p>
+
+				<div class="contact__box">
+					<div class="contact__child contact__child--left" data-aos="zoom-in" data-aos-duration="2000">
+						<form action="" class="contact__form">
+							<input type="text" name="name" id="name inputForm" placeholder="Your Name" class="contact__input" />
+							<input type="email" name="mail" id="mail inputForm" placeholder="Your Email" class="contact__input" />
+							<input type="text" name="subject" id="subject inputForm" placeholder="Subject" class="contact__input" />
+							<textarea name="message" id="message inputForm" placeholder="Your Message" class="contact__input contact__input--textarea"></textarea>
+							<button class="contact__button" id="submitForm">Send Message</button>
+						</form>
+					</div>
+					<div class="contact__child contact__child--right" data-aos="zoom-in" data-aos-duration="2000" style="box-shadow: none">
+						<h3 class="contact__title" data-aos="fade-up" data-aos-duration="2000" style="margin: 0 20px 40px; color: var(--primary-color)">Get In Touch</h3>
+						<div class="contact__right">
+							<div class="contact__address">
+								<h3 class="contact__address__title">Paris, France</h3>
+								<div class="contact__address__box">
+									<a href="" class="contact__address__text">732 Despard St, Atlanta</a>
+									<a href="" class="contact__address__text">+0812 3456 789</a>
+									<a href="" class="contact__address__text">rwsofficial@gmail.co.id</a>
+								</div>
+							</div>
+							<div class="contact__address">
+								<h3 class="contact__address__title">Bangkok, Thailand</h3>
+								<div class="contact__address__box">
+									<a href="" class="contact__address__text">732 Despard St, Atlanta</a>
+									<a href="" class="contact__address__text">+0812 3456 789</a>
+									<a href="" class="contact__address__text">rwsofficial@gmail.co.id</a>
+								</div>
+							</div>
+							<div class="contact__address">
+								<h3 class="contact__address__title">London, England</h3>
+								<div class="contact__address__box">
+									<a href="" class="contact__address__text">732 Despard St, Atlanta</a>
+									<a href="" class="contact__address__text">+0812 3456 789</a>
+									<a href="" class="contact__address__text">rwsofficial@gmail.co.id</a>
+								</div>
+							</div>
+							<div class="contact__address">
+								<h3 class="contact__address__title">Hong Kong, China</h3>
+								<div class="contact__address__box">
+									<a href="" class="contact__address__text">732 Despard St, Atlanta</a>
+									<a href="" class="contact__address__text">+0812 3456 789</a>
+									<a href="" class="contact__address__text">rwsofficial@gmail.co.id</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- ? contact section -->
+
+			<!-- ? subcribe section -->
+			<section class="subcribe">
+				<h2 class="subcribe__title" data-aos="fade-up" data-aos-duration="2000">Subscribe to get special price</h2>
+				<p class="subcribe__text" data-aos="fade-up" data-aos-duration="2000">Dont wanna miss something? subscribe right now and get special promotion and monthly newsletter</p>
+
+				<div class="subcribe__box" data-aos="zoom-in" data-aos-duration="2000">
+					<input type="text" name="" id="inputEmail" class="subcribe__input" placeholder="Type your  email here" />
+					<span class="subcribe__button" id="submitEmail">Subcribe</span>
+				</div>
+			</section>
+			<!-- ? subcribe section -->
+
+			<!-- ? to top -->
+			<div class="totop" id="toTop">
+				<span class="bx bx-up-arrow-alt totop__icon"></span>
+			</div>
+			<!-- ? to top -->
+		</main>
+		<!-- ! main -->
+
+		<!-- ! footer -->
+		<footer class="footer">
+			<div class="footer__box">
+				<div class="footer__child" data-aos="fade-up" data-aos-duration="2000">
+					<p class="footer__text" style="text-align: justify; cursor: pointer">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio laudantium quis ullam veniam possimus. Ipsa illum delectus aperiam architecto alias cupiditate beatae reprehenderit quia fuga pariatur. Consequatur natus illum eaque?</p>
+				</div>
+				<div class="footer__child" data-aos="fade-up" data-aos-duration="2000">
+					<h3 class="footer__title">Contact Information</h3>
+					<a href="" class="footer__text">732 Despard St, Atlanta</a>
+					<a href="" class="footer__text">+0812 3456 789</a>
+					<a href="" class="footer__text">rwsofficial@gmail.co.id</a>
+				</div>
+				<div class="footer__child" data-aos="fade-up" data-aos-duration="2000">
+					<h3 class="footer__title">Quick Link</h3>
+					<a href="index.html" class="footer__text">Home</a>
+					<a href="about.html" class="footer__text">About Us</a>
+					<a href="destination.html" class="footer__text">Destinations</a>
+					<a href="blog.html" class="footer__text">Blog</a>
+					<a href="contact.html" class="footer__text">Contact</a>
+				</div>
+				<div class="footer__child" data-aos="fade-up" data-aos-duration="2000">
+					<h3 class="footer__title">Follow Us</h3>
+					<div class="footer__box__icon">
+						<div class="footer__bg__icon">
+							<span class="bx bxl-facebook footer__icon"></span>
+						</div>
+						<div class="footer__bg__icon">
+							<span class="bx bxl-youtube footer__icon"></span>
+						</div>
+						<div class="footer__bg__icon">
+							<span class="bx bxl-twitter footer__icon"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer__copyright">
+				<div class="footer__copyright__text">Copyright © All rights reserved (Website Developed & Managed by RWS)</div>
+			</div>
+		</footer>
+		<!-- ! footer -->
+
+		<!-- ! js -->
+		<!-- js eksternal -->
+		<script src="script.js"></script>
+		<!-- aos library -->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+
+			// You can also pass an optional settings object
+			// below listed default settings
+			AOS.init({
+				// Global settings:
+				disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+				startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+				initClassName: 'aos-init', // class applied after initialization
+				animatedClassName: 'aos-animate', // class applied on animation
+				useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+				disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+				debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+				throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+				// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+				offset: 120, // offset (in px) from the original trigger point
+				delay: 0, // values from 0 to 3000, with step 50ms
+				duration: 400, // values from 0 to 3000, with step 50ms
+				easing: 'ease', // default easing for AOS animations
+				once: false, // whether animation should happen only once - while scrolling down
+				mirror: false, // whether elements should animate out while scrolling past them
+				anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+			});
+		</script>
+		<!-- firebase -->
+		<script type="module">
+			// Import the functions you need from the SDKs you need
+			import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js';
+			import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.12.2/firebase-analytics.js';
+			// TODO: Add SDKs for Firebase products that you want to use
+			// https://firebase.google.com/docs/web/setup#available-libraries
+
+			// Your web app's Firebase configuration
+			// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+			const firebaseConfig = {
+				apiKey: 'AIzaSyDQ6aafMErkn3FS9uX30Andf88m1Ja27-4',
+				authDomain: 'project-uas-ppw.firebaseapp.com',
+				projectId: 'project-uas-ppw',
+				storageBucket: 'project-uas-ppw.appspot.com',
+				messagingSenderId: '21575810448',
+				appId: '1:21575810448:web:2745ae7f67587d968c4715',
+				measurementId: 'G-KMK2NSN7CV',
+			};
+
+			// Initialize Firebase
+			const app = initializeApp(firebaseConfig);
+			const analytics = getAnalytics(app);
+		</script>
+	</body>
+</html>
